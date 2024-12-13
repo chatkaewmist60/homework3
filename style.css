@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+     /* margin: 0; */
+     /* padding: 0; */
+     box-sizing: border-box;
+}
+
+body {
+     background-image: url('./pexels-photo.webp');
+     background-position: 50%;
+     padding: 0;
+     margin: 0;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+
+}
+
+h1 {
+     text-align: center;
+     font-family: "Tajawal", serif;
+     font-size: 80px;
+     color: white;
+}
+
+/* h2 {
+     color: white;
+     font-size: smaller;
+     text-align: center;
+     font-family: "Tajawal", serif;
+     font-size: 80px;
+
+} */
+
+header {
+     position: absolute;
+     /* align-items: flex-end; */
+     color: white;
+     font-size: 20px;
+     font-family: "Tajawal", serif;
+     top: 1px;
+     right: 10vw;
+     background-color: gray;
+}
+
+.container {
+     display: flex;
+     flex-direction: column;
+}
+
+p {
+     color: white;
+     font-size: 20px;
+     font-family: "Tajawal", serif;
+     text-align: center;
+     letter-spacing: 10px;
+}
+
+body {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh;
+background-color: #000; /* Black background for contrast */
+}
+
+.progressbar-1 {
+background-color: white;
+box-shadow: 4px 4px 12px #1a1a1a;
+height: 0.5rem;
+width: 95%;
+margin: auto;
+}
+
+.progressbar-2 {
+background-color: aqua;
+height: 0.5rem;
+/* width: 80%; */
+animation-name: ani1;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ani1 {
+0% {
+     width: 0;
+}
+100% {
+     width: 100%;
+}
+}
+
+
+.social {
+     display: flex;
+     justify-content: center;
+}
+
+.social img {
+     width: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.social > * {
+     width: 50px;
+     border:  1px solid white;
+     border-radius:  50%;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     padding: 6px;
+     margin-right: 6px;
+}
+
+button {
+     background-color: lightblue;
+     height: 80px;
+     width: 250px;
+     font-size: 30px;
+
+}
+
+.button {
+     text-align: center;
+}
+
+footer {
+     position: absolute;
+     bottom: 0;
+     color: #888;
+     width: 100%;
+}
+
+footer p {
+     color: #888;
+     letter-spacing: 1px;
+     border-top: 1px solid #888;
+}
+
